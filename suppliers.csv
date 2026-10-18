@@ -1,0 +1,6 @@
+Supplier ID,Supplier Name,Category,Lead Time (Days),Reliability (%),City,Contact
+SUP01,StyleHub Wholesale,Clothing,6.0,92.0,Tiruppur,orders@stylehub.example
+SUP02,TechSource India,Electronics,7.0,95.0,Chennai,supply@techsource.example
+SUP03,HomeCraft Suppliers,Furniture,12.0,88.0,Coimbatore,po@homecraft.example
+SUP04,FreshLink Traders,Groceries,2.0,97.0,Madurai,dispatch@freshlink.example
+SUP05,PlayWorld Distributors,Toys,5.0,90.0,Bengaluru,sales@playworld.example
