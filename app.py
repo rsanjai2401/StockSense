@@ -1,4 +1,4 @@
-"""InventoryPro - Smart Stock Management (Streamlit)."""
+"""StockSense - Smart Stock Management (Streamlit)."""
 from datetime import datetime
 
 import pandas as pd
@@ -8,7 +8,7 @@ import streamlit as st
 
 import core
 
-st.set_page_config(page_title="InventoryPro | Smart Stock Management", page_icon="📦",
+st.set_page_config(page_title="StockSense | Smart Stock Management", page_icon="📦",
                    layout="wide", initial_sidebar_state="expanded")
 
 BLUE, PURPLE, GREEN, ORANGE, CYAN, RED, AMBER = "#2F6BFF", "#8B5CF6", "#12B886", "#FF8A3D", "#38BDF8", "#F0475B", "#F5B301"
@@ -112,7 +112,7 @@ data = core.enrich(inv, sup, settings)
 
 # ------------------------------------------------------------------ sidebar
 with st.sidebar:
-    html("""<div class="brand"><div class="logo">📦</div><div><div class="t1">Inventory<span>Pro</span></div>
+    html("""<div class="brand"><div class="logo">📦</div><div><div class="t1">Stock<span>Sense</span></div>
     <div class="t2">Smart Stock Management</div></div></div>""")
     n_alerts = int((data["Status"] != "IN STOCK").sum())
     pages = ["🏠  Dashboard", "📦  Inventory", f"🔔  Alerts ({n_alerts})", "🚚  Suppliers",
