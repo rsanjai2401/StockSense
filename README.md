@@ -1,4 +1,4 @@
-# InventoryPro - Smart Stock Management
+# StockSense - Smart Stock Management
 
 Streamlit web app built on the Inventory Stock Alert System Excel project.
 Stack: Python, Streamlit, Pandas, Plotly, Excel/CSV export (xlsxwriter).
